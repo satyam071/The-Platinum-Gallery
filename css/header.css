@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+}
+header {
+  background-color: black;
+}
+ul {
+  display: flex;
+  gap: 10px;
+  transition: all 0.3s;
+  justify-content: center;
+  width: 100vw;
+}
+li {
+  list-style: none;
+  transition: all 0.3s;
+  padding: 20px 25px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: rgb(255, 253, 253);
+  font-weight: bold;
+}
+li:hover {
+  background: #fafafa;
+  transform: scale(1.5);
+  border-radius: 10px;
+}
+ul:hover a {
+  /* filter: blur(1px); */
+  color: #ff0057;
+}
+
+/*======================
+    404 page
+=======================*/
