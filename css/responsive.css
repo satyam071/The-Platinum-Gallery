@@ -114,4 +114,47 @@
   .card{
     top: 6vh;
   }
+  li:hover {
+    background: #fafafa;
+    transform: scale(1.5);
+    border-radius: 10px;
+  }
+  ul:hover a {
+    /* filter: blur(1px); */
+    color: #ff304f;
+  }
+  .container2 .card3:hover .face.face1 {
+    background: #ff0057;
+    /* transform: translateY(0); */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .container2 .card3:hover .face.face1 .content {
+    opacity: 1;
+  }
+  .container2 .card3:hover .face.face2 {
+    transform: translateY(56px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .container2 .card3 .face.face2 .content a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+  }
+  .btn:hover {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .btn:hover:before,
+  .btn:hover:after {
+    width: 102%;
+    height: 102%;
+  }
+  main section div:hover {
+    transform: translateY(-16px) rotate(3deg);
+    background-color: white;
+  }
+  main section div:hover ~ div {
+    transform: translateX(130px);
+  }
 }

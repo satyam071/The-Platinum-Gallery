@@ -28,15 +28,7 @@ a {
   color: rgb(255, 253, 253);
   font-weight: bold;
 }
-li:hover {
-  background: #fafafa;
-  transform: scale(1.5);
-  border-radius: 10px;
-}
-ul:hover a {
-  /* filter: blur(1px); */
-  color: #ff0057;
-}
+
 
 /*======================
     404 page
