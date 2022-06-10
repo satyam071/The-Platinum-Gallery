@@ -11,7 +11,7 @@ ul {
   gap: 10px;
   transition: all 0.3s;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 li {
   list-style: none;
@@ -28,8 +28,3 @@ a {
   color: rgb(255, 253, 253);
   font-weight: bold;
 }
-
-
-/*======================
-    404 page
-=======================*/

@@ -1,0 +1,13 @@
+.container2 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container2 img{
+    height: auto;
+    margin: 5px auto;
+    border-bottom: 7px solid #ff304f;
+    border-left: 7px solid #ff304f;
+    border-top-right-radius: 39px;
+}

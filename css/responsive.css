@@ -24,24 +24,6 @@
   .cover {
     width: 100vw;
   }
-  /* .about {
-    height: 60vh;
-    width: 100vw;
-  } */
-  /* .container {
-    height: 40vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-  } */
-  /* .profile {
-    height: 18vh;
-    border-radius: 50%;
-    position: relative;
-    left: 34vw;
-    
-  } */
   .class_container {
     padding: 2rem;
     width: 100%;
@@ -69,27 +51,39 @@
     height: 136vh;
     width: 0vw;
     position: absolute;
-    top: 360vh;
-    left: 69vw;
+    top: 276vh;
+    left: 65vw;
   }
-  .class_container{
-    height: 32vh;
+  .class_container {
+    height: 207px;
   }
-  main section div  {
-    /* height: 100vh; */
+  main section div {
     border-radius: 14px 0px 0px;
   }
-}
-/* @media screen and (max-width: 1400px){
-  .card2{
-    visibility: hidden;
+  .title h1 {
+    font-size: 12vh;
   }
-  .reference{
-    width: 12vw;
-    height: 12vh;
+  .btn {
+    top: -26rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+  header {
+    width: 100vw;
   }
 
-} */
+  li {
+    padding: 5px 0px;
+    margin: 5px 0px;
+  }
+  a {
+    letter-spacing: 0px;
+  }
+}
+
 @media screen and (min-device-width: 601px) and (max-device-width: 1400px) {
   main section {
     display: flex;
@@ -99,19 +93,18 @@
     position: absolute;
     top: 410vh;
     left: 13vw;
-    
   }
   main section div {
     height: 34vh;
-    border-radius: 14px ;
+    border-radius: 14px;
   }
-  .btn{
+  .btn {
     width: 11vw;
   }
-  .class_container{
+  .class_container {
     height: 70%;
   }
-  .card{
+  .card {
     top: 6vh;
   }
   li:hover {
@@ -120,12 +113,10 @@
     border-radius: 10px;
   }
   ul:hover a {
-    /* filter: blur(1px); */
     color: #ff304f;
   }
   .container2 .card3:hover .face.face1 {
     background: #ff0057;
-    /* transform: translateY(0); */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
@@ -156,5 +147,32 @@
   }
   main section div:hover ~ div {
     transform: translateX(130px);
+  }
+  .title h1 {
+    font-size: 12vh;
+  }
+  .btn {
+    top: 21vh;
+  }
+}
+@media screen and (max-width: 318px) {
+  .class_container {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .title h1 {
+    font-size: 7vh;
+  }
+}
+@media screen and (max-width: 362px){
+  .container2 img{
+    width: 90%;
+
+  }
+}
+@media screen and (min-width: 362px){
+  .container2 img{
+    width: 329px;
   }
 }
