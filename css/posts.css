@@ -3,10 +3,11 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .container2 img{
     height: auto;
-    margin: 5px auto;
+    margin: 5px 10px;
     border-bottom: 7px solid #ff304f;
     border-left: 7px solid #ff304f;
     border-top-right-radius: 39px;

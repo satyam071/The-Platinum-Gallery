@@ -7,7 +7,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 72vh;
+  height: fit-content;
 }
 .container {
   width: 100%;
@@ -30,13 +30,13 @@
   box-shadow: 4px 4px 15px rgba(#000, 0.15);
   position: relative;
   color: #434343;
-  height: 30vh;
+  height: fit-content;
   display: flex;
 }
 .card_container {
   display: flex;
   justify-content: center;
-  height: 47.3vh;
+  height: fit-content;
 }
 
 .class_container {
@@ -47,6 +47,7 @@
   border-radius: 1rem;
   position: relative;
   border: 0px solid;
+  border-bottom: 1px solid black;
 }
 .card_header {
   font-family: "Poppins";
